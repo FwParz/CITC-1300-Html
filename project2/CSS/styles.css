@@ -1,3 +1,82 @@
 body {
-    background-color: #556271;
+    background-color: #4C5958;
+}
+
+#container {
+    background-color: #FACFCE;
+    width: 900px;
+    margin: 20px auto;
+    border-radius: 20px 20px 20px 20px;
+}
+header{
+    padding-top: 20px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #8AA6A3;
+}
+
+header img {
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #10403B; 
+}
+
+nav {
+    background-color: #FACFCE;
+    padding-top: 10px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #8AA6A3;
+    height: 50px;
+    width: 150px;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 50px;
+    color: #023535;
+    text-decoration: none;
+    border-radius: 10px 10px 0 0;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #4C5958;
+    color: #8AA6A3;
+}
+
+main {
+    background-color: #8AA6A3;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+}
+
+main h2 {
+    text-align: center;
+    color: #10403B;
+    font-size: 2em;
+}
+
+main img {
+    background-color: #4C5958;
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #8AA6A3;
+    padding: 40px 0;
+    color: #FACFCE;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
 }
