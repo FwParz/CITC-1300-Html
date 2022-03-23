@@ -26,8 +26,8 @@ header h1 {
     font-size: 2.5em;
     text-align: center;
     color: #10403B; 
-    font-family: 'Andika', sans-serif;
     text-shadow: 2px 2px 2px #000;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav {
@@ -68,7 +68,14 @@ main h2 {
     text-align: center;
     color: #10403B;
     font-size: 2em;
-    font-family: 'Andika', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+main h3 {
+    text-align: center;
+    color: #10403B;
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
 }
 
 main img {
@@ -80,7 +87,24 @@ main img {
     border-radius: 20px;
 }
 
-footer {
+main p {
+    text-align: center;
+    color: #10403B;
+    font-size: 1.25em;
+    font-family: 'Andika', sans-serif;
+}
+
+footer{
+    background-color: #8AA6A3;
+    padding: 20px 0;
+    color: #FACFCE;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Andika', sans-serif;
+    border-radius: 0 0 20px 20px;
+}
+
+.main_footer {
     background-color: #8AA6A3;
     padding: 40px 0;
     color: #FACFCE;
@@ -101,4 +125,13 @@ footer {
     color: #10403B;
     font-size: 1.5em;
     font-family: 'Andika', sans-serif;
+}
+
+.list_links {
+    font-size: 1.5em;
+    font-family: 'Ankida', sans-serif;
+}
+
+.list {
+    color:  10403B;
 }
