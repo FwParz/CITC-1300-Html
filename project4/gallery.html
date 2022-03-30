@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Isaac's Climbing</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="media.html">media</a></li>
+                <li><a href="gallery.html">gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="upper_flex">
+                <section class="single_col">
+                    <h1>Gallery</h1>
+
+                    <div class="gallery">
+                        <img class="gal_img" src="data/images/gym1.jpg" alt="aa">
+                        <img class="gal_img" src="data/images/gym2.jpg" alt="aa">
+                        <img class="gal_img" src="data/images/gym3.jpg" alt="aa">
+                        <img class="gal_img" src="data/images/gym4.jpg" alt="aa">
+                        <img class="gal_img" src="data/images/outdoor1.jpg" alt="aa">
+                        <img class="gal_img" src="data/images/outdoor2.jpg" alt="aa">
+
+                    </div>
+
+                    <table class="gal_table">
+                        <tr class="gal_tr">
+                            <td class="gal_td"><img src="data/images/gym1.jpg" alt="aaa"></td>
+                            <td class="gal_td"><img src="data/images/gym3.jpg" alt="aaa"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="gal_td"><img src="data/images/gym5.jpg" alt="aaa"></td>
+                            <td class="gal_td"><img src="data/images/gym6.jpg" alt="aaa"></td>
+                        </tr>
+
+                        <tr>
+                            <td class="gal_td"><img src="data/images/outdoor3.jpg" alt="aaa"></td>
+                            <td class="gal_td"><img src="data/images/outdoor4.jpg" alt="aaa"></td>
+                        </tr>
+                    </table>
+
+                </section>
+            </div> 
+
+            <div id="lower_flex">
+                <div class="col">
+                    <h1>Media</h1>
+                    <p>In this tab you will find some audio files and videos. The songs are what get me hyped to climb! The videos are 2 of my hardest climbs</p>
+                    <img src="data/images/outdoor3 Cropped.jpg" alt="outdoor">
+                    <a class="button" href="media.html">Media</a>
+                </div>
+                <div class="col">
+                    <h1>Gallery</h1>
+                    <p>In this tab you get to see a photodump reformatted for each type of device you use. Some photos are from me climbing outside and some are from an interview high point (climbing gym) did on me.</p>
+                    <img src="data/images/theGang Cropped.jpg" alt="theGang">
+                    <a class="button" href="gallery.html">gallery</a>
+                </div>
+                <div class="col">
+                    <h1>Hype</h1>
+                    <p>Now this is where its at. Kissing toads again! And I can't wait to kiss some toads again. They're always hopping in my garden at nighttime. And I wish they'd just come out for me to kiss.</p>
+                    <img src="data/images/gym3 Cropped.jpg" alt="gym3">
+                    <audio id="testAudio" src="data/audio/Kissing Toads Again.mp3" type="audio/mpeg"></audio>
+                    <a id="playAudio">Play</a>
+
+                    <script type="text/javascript">
+                    document.getElementById("playAudio").addEventListener("click", function(){
+                        var audio = document.getElementById('testAudio');
+                      if(this.className == 'is-playing'){
+                        this.className = "";
+                        this.innerHTML = "Play"
+                        audio.pause();
+                      }else{
+                        this.className = "is-playing";
+                        this.innerHTML = "Pause";
+                        audio.play();
+                      }
+
+                     });
+                     </script>
+
+                </div>
+            </div>
+        </main>
+        <footer>&copy; My Mother</footer>
+    </div>
+</body>
+</html>
