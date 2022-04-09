@@ -1,0 +1,71 @@
+/* Global Styles */
+
+body {
+    background-color: #F3ECE6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Mobile Styles */
+
+#container {
+    background-color: #2B2B2B;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+header {
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.75em;
+    color: #EFE8D0;
+}
+
+
+
+header ul {
+    list-style: none;
+    padding: 0%; 
+    border: 2px solid #D9D2BF;
+    border-radius: 400px;
+    background-color: #242424;
+    margin: 0 5% 0 5%;
+    min-width: 200px;
+    text-align: center;
+}
+
+header li {
+    display: inline;
+    
+}
+
+header li a {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    font-size: .75em; 
+    color: #D9D2BF;
+}
+
+a.left {
+    padding-right: 20%;
+}
+
+#home_img {
+    border: 2px solid #D9D2BF;
+    border-radius: 20px;
+    margin: 0 5% 0 5%;
+    width: 89%;
+}
+
+/* Tablet Styles */
+
+/* Computer Styles */
