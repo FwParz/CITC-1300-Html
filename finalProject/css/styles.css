@@ -4,7 +4,7 @@ body {
     background-color: #F3ECE6;
 }
 
-img {
+img, video {
     display: block;
     max-width: 100%;
     margin: 0 auto;
@@ -50,6 +50,10 @@ header ul, .content img, .content, .col, .col img, .button, footer {
 
 .underscore {
     text-decoration: underline;
+}
+
+p a {
+    color: #ab0909;
 }
 
 
