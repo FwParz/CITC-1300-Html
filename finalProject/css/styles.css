@@ -4,13 +4,13 @@ body {
     background-color: #F3ECE6;
 }
 
-img, video {
+img, video, iframe {
     display: block;
     max-width: 100%;
     margin: 0 auto;
 }
 
-header ul, .content img, .content, .col, .col img, .button, footer {
+header ul, .content img, .content, .col, .col img, .button, footer, iframe {
     /* Border Style */
     background-color: #242424;
     border: 2px solid #D9D2BF;
