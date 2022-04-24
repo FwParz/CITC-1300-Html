@@ -4,7 +4,7 @@ body {
     background-color: #F3ECE6;
 }
 
-img, video, iframe {
+img, video, iframe, audio {
     display: block;
     max-width: 100%;
     margin: 0 auto;
@@ -44,7 +44,7 @@ header ul, .content img, .content, .col, .col img, .button, footer, iframe {
 }
 
 .button:hover, header a:hover {
-    background-color: #420e0e;;
+    background-color: #420e0e;
     text-shadow: 2px 2px 2px #000; 
 }
 
@@ -110,5 +110,23 @@ p {
 }
 
 /* Tablet Styles */
+
+@media(min-width: 768px) {
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    header li a {
+        font-size: 1.5em;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    header h1 a:hover {
+        background-color: #420e0e;
+    }
+
+}
 
 /* Computer Styles */
