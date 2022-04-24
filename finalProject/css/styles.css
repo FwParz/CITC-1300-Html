@@ -1,0 +1,132 @@
+/* Global Styles */
+
+body {
+    background-color: #F3ECE6;
+}
+
+img, video, iframe, audio {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header ul, .content img, .content, .col, .col img, .button, footer, iframe {
+    /* Border Style */
+    background-color: #242424;
+    border: 2px solid #D9D2BF;
+    border-radius: 20px;
+    margin: 2.5% 5% 2.5% 5%;
+    color: #EFE8D0;
+    width: 89%; 
+}
+
+.col h2, .col a, .content h2 {
+    text-align: center;
+}
+
+.col img {
+    background-color: #212121;
+    border-color: #212121;
+    width: 89%;
+}
+
+.button {
+    display: block;
+    background-color: #212121;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px auto;
+    border-radius: 10px; 
+}
+
+.button:hover, header a:hover {
+    background-color: #420e0e;
+    text-shadow: 2px 2px 2px #000; 
+}
+
+.underscore {
+    text-decoration: underline;
+}
+
+p a {
+    color: #ab0909;
+}
+
+
+/* Mobile Styles */
+
+#container {
+    background-color: #2B2B2B;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+header {
+    padding: 2.5% 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.75em;
+    color: #EFE8D0;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #EFE8D0;
+}
+
+header ul, footer {
+    list-style: none;
+    padding: 0%; 
+    border-radius: 10px;
+    background-color: #242424;
+    min-width: 200px;
+    text-align: center;
+}
+
+header li {
+    display: inline;
+    
+}
+
+header li a {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    font-size: .75em; 
+    color: #EFE8D0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+p {
+    padding: 2.5%;
+}
+
+/* Tablet Styles */
+
+@media(min-width: 768px) {
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    header li a {
+        font-size: 1.5em;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    header h1 a:hover {
+        background-color: #420e0e;
+    }
+
+}
+
+/* Computer Styles */
