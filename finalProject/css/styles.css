@@ -43,9 +43,10 @@ header ul, .content img, .content, .col, .col img, .button, footer, iframe {
     border-radius: 10px; 
 }
 
-.button:hover, header a:hover {
+.button:hover, header h1:hover, header a:hover {
     background-color: #420e0e;
     text-shadow: 2px 2px 2px #000; 
+    border-radius: 10px;
 }
 
 .underscore {
@@ -55,7 +56,6 @@ header ul, .content img, .content, .col, .col img, .button, footer, iframe {
 p a {
     color: #ab0909;
 }
-
 
 /* Mobile Styles */
 
@@ -109,9 +109,21 @@ p {
     padding: 2.5%;
 }
 
+.tablet, .flexbox_desktop {
+    display: none;
+}
+
 /* Tablet Styles */
 
 @media(min-width: 768px) {
+
+    .mobile, .flexbox_desktop {
+        display: none;
+    }
+    
+    .tablet {
+        display: block;
+    }
 
     header h1 {
         font-size: 3em;
@@ -123,10 +135,111 @@ p {
         padding-bottom: 1%;
     }
 
-    header h1 a:hover {
-        background-color: #420e0e;
+    header h1:hover, header a:hover {
+        border-radius: 15px;
     }
 
+    #lower_flex, #lower_flex2 {
+        display: flex;
+    }
+    
+    .tablet .col3 {
+        display: flex;
+        flex-direction: column;
+        min-height: 740px;
+        min-width: 225px;
+    }
+
+    .tablet .media {
+        align-self: flex-end;
+        margin-top: auto;
+    }
+
+    .tablet .col2 {
+        min-width: 360px;
+        min-height: 450px;
+        margin-right: 10px;
+        margin-left: 10px; 
+    }
+    
 }
 
 /* Computer Styles */
+
+@media(min-width: 1024px) {
+
+    .mobile {
+        display: none;
+    }
+    
+    .tablet, .flexbox_desktop {
+        display: block;
+    }
+    
+    header h1 {
+        font-size: 6em;
+    }
+
+    header li a {
+        font-size: 2em;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+
+    header h1:hover {
+        border-radius: 30px;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    .button {
+        font-size: 2em;
+    }
+
+    #lower_flex, #lower_flex2 {
+        display: none;
+    }
+
+    .flexbox_desktop {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        margin: 1%;
+        min-height: 730px;
+    }
+    
+    .button {
+        align-self: flex-end;
+        margin-top: auto;
+    }
+
+    .tablet .col3 {
+        min-height: 1100px;
+    }
+
+    table .centering {
+        width: 50%;
+    }
+
+    .table_img {
+        margin: auto;
+    }
+
+    .tablet .col2 {
+        min-height: 670px;
+        margin: auto;
+    }
+    
+
+}
